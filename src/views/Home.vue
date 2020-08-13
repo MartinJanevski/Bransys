@@ -1,18 +1,19 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div > 
+    <div class="display: flex justify-content center align-items:center" ><img src="../assets/logo.png" alt="Vue logo" width="250"></div>    
+    <br>
+    <a href="https://github.com/MartinJanevski/Bransys.git">Source Code</a>
   </div>
 </template>
-
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "Home",
-  components: {
-    HelloWorld
-  }
 };
 </script>
+
+<style lang="scss">
+a{
+  font-weight: bold;
+    color: #2c3e50;
+}
+</style>
